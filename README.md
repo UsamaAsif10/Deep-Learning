@@ -6,21 +6,24 @@ University coursework covering deep learning fundamentals and architectures.
 
 | File | Description |
 |------|-------------|
-| `Deep_Learning_1.ipynb` | Assignment 1 — Deep learning fundamentals |
-| `main.ipynb` | Main project notebook |
+| `Diabetes_NN_EDA.ipynb` | Diabetes classification — EDA, data cleaning, and neural network model with evaluation (accuracy, confusion matrix, ROC curve) |
+| `Diabetes_NN_Main.ipynb` | Diabetes classification — clean pipeline with StandardScaler, Sequential model, and full evaluation |
 | `CNN.ipynb` | Convolutional Neural Networks |
 | `Ass_3_RNN.ipynb` | Assignment 3 — Recurrent Neural Networks |
 
 ## Topics Covered
 
-- Deep Learning Fundamentals
+- Exploratory Data Analysis (EDA)
+- Feature scaling with StandardScaler
+- Sequential neural networks with Keras
 - Convolutional Neural Networks (CNN)
 - Recurrent Neural Networks (RNN)
-- Model training and evaluation
+- Model evaluation: accuracy, confusion matrix, ROC curve
 
 ## Tools & Libraries
 
 - Python 3
 - TensorFlow / Keras
-- NumPy, Matplotlib
+- scikit-learn
+- NumPy, Pandas, Matplotlib, Seaborn
 - Jupyter Notebook
